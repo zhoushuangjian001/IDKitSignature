@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
                         该库是用于项目中需要采集用户的签名。该库包含单独的签名功能以及UI,可自定义UI的等功能。
                        DESC
 
-  s.homepage         = 'https://github.com/zhoushuangjian511@163.com/IDKitSignature'
+  s.homepage         = 'https://github.com/zhoushuangjian001/IDKitSignature'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhoushuangjian511@163.com' => 'zhoushuangjian@algnto.com' }

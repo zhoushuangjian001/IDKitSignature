@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1644EEAD231BAFA2000234E0 /* IDKitSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1644EEAC231BAFA2000234E0 /* IDKitSignatureView.swift */; };
 		28249DD32D76B75BF77506F8EB7165A3 /* Pods-IDKitSignature_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6148EEBB98F0F54323CE3D2413C53D /* Pods-IDKitSignature_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D8C04F28F0D567921F9CE80D1A5A4FF /* Pods-IDKitSignature_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2DF432CCEBECE2B34E3D2C2C918E7 /* Pods-IDKitSignature_Tests-dummy.m */; };
 		5BA2221990DDA9A4BD50C7C610945C2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		BDE4238E301EFE4FCA0BC2B80014BDEE /* IDKitSignature-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A129AD394C1281235182EBEC7835A25 /* IDKitSignature-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6727246ECD49B7EA7BB8A87D321B1F52 /* IDKitSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FD11E4335CC2BA4E698F58B1B21BDA /* IDKitSignatureView.swift */; };
+		BDE4238E301EFE4FCA0BC2B80014BDEE /* IDKitSignature-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC182F1CC0DBEA4D12F6C7B1A2F8628D /* IDKitSignature-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C41EBD7EEE8B5568613F8F3FABE5171A /* IDKitSignature-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F329A0AB083F1EFB9BB04273A3F2FB2 /* IDKitSignature-dummy.m */; };
 		CFDC41661FF8DFE0D91008BC3E4BB260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E8665F2C2E026A2D39E15BDD94C09CB5 /* IDKitSignature-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F1D5211CB0FD9CF21E35676E8E87BE /* IDKitSignature-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,28 +28,28 @@
 
 /* Begin PBXFileReference section */
 		01C1E3FCE30DD5AC0D34BBA888D538AC /* Pods_IDKitSignature_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDKitSignature_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A129AD394C1281235182EBEC7835A25 /* IDKitSignature-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IDKitSignature-umbrella.h"; sourceTree = "<group>"; };
-		1644EEAC231BAFA2000234E0 /* IDKitSignatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IDKitSignatureView.swift; path = IDKitSignature/Classes/IDKitSignatureView.swift; sourceTree = "<group>"; };
-		2174EF85B355BA6004F6DCC409354600 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2249F8D95609DEB8CB0578B4E61CD011 /* IDKitSignature.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IDKitSignature.xcconfig; sourceTree = "<group>"; };
 		2BDD4BCBEDB5393452330F6A8194F27A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E377ACAA24FDB7425E707620F5504EE /* Pods-IDKitSignature_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IDKitSignature_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		34B0285B72DC8964A785CEEDB6728C97 /* Pods-IDKitSignature_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IDKitSignature_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		36F1D5211CB0FD9CF21E35676E8E87BE /* IDKitSignature-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IDKitSignature-dummy.m"; sourceTree = "<group>"; };
 		375A866D9E3A76F4C15179B30D024D5E /* Pods-IDKitSignature_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IDKitSignature_Tests.modulemap"; sourceTree = "<group>"; };
+		39FD11E4335CC2BA4E698F58B1B21BDA /* IDKitSignatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IDKitSignatureView.swift; path = IDKitSignature/Classes/IDKitSignatureView.swift; sourceTree = "<group>"; };
 		45A38176A744F0BD18B9F9D4FC801ADE /* Pods-IDKitSignature_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IDKitSignature_Tests-resources.sh"; sourceTree = "<group>"; };
-		4928560729D331DFE70CBE8021277DF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F760E5F2AB8BECF5845F039EAA4ACA3 /* IDKitSignature.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IDKitSignature.modulemap; sourceTree = "<group>"; };
 		524C3F42A28F783997668EF1BABAAB00 /* Pods-IDKitSignature_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IDKitSignature_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		58AE8CCE9FB0FB0CA96AF7F6E3B2B71C /* IDKitSignature.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IDKitSignature.xcconfig; sourceTree = "<group>"; };
 		59D94458125CB5EEBF74A2F9A41ECCDC /* IDKitSignature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDKitSignature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		681A9018C8DF4B48B1D6BCEEB21D22CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EEDE322B068C9E396CC9B99A3A13E76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		727BF74F2783C61769C2C55CC71438D1 /* IDKitSignature-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IDKitSignature-prefix.pch"; sourceTree = "<group>"; };
 		8AC02E6BE30DB201AA8FC3C53E402668 /* Pods-IDKitSignature_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IDKitSignature_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		91364A5B05CBCD62B37619139B6C75B2 /* IDKitSignature.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = IDKitSignature.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F329A0AB083F1EFB9BB04273A3F2FB2 /* IDKitSignature-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IDKitSignature-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B6148EEBB98F0F54323CE3D2413C53D /* Pods-IDKitSignature_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IDKitSignature_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A4C2DF432CCEBECE2B34E3D2C2C918E7 /* Pods-IDKitSignature_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IDKitSignature_Tests-dummy.m"; sourceTree = "<group>"; };
-		DA649DA3EED27F050A888E7232DC4272 /* IDKitSignature-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IDKitSignature-prefix.pch"; sourceTree = "<group>"; };
-		E2C1450B044CD3CAA93E85D67AA6E615 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F32A72696F12E4B4D3F0027D5CB6D454 /* IDKitSignature.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IDKitSignature.modulemap; sourceTree = "<group>"; };
+		AC182F1CC0DBEA4D12F6C7B1A2F8628D /* IDKitSignature-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IDKitSignature-umbrella.h"; sourceTree = "<group>"; };
+		D9D38D32B681CE1A62E025342238AA0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F6D7B95BF8A3183E9EF783EEECFF1FDE /* IDKitSignature.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = IDKitSignature.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FAADDC327B51F868F0D104CAA0C1B829 /* Pods-IDKitSignature_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IDKitSignature_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,18 +73,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2083DCDD705FE27D704496A6290E1249 /* Support Files */ = {
+		00F0EC36014DFDF6C51008D0C337F962 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F32A72696F12E4B4D3F0027D5CB6D454 /* IDKitSignature.modulemap */,
-				58AE8CCE9FB0FB0CA96AF7F6E3B2B71C /* IDKitSignature.xcconfig */,
-				36F1D5211CB0FD9CF21E35676E8E87BE /* IDKitSignature-dummy.m */,
-				DA649DA3EED27F050A888E7232DC4272 /* IDKitSignature-prefix.pch */,
-				0A129AD394C1281235182EBEC7835A25 /* IDKitSignature-umbrella.h */,
-				4928560729D331DFE70CBE8021277DF6 /* Info.plist */,
+				4F760E5F2AB8BECF5845F039EAA4ACA3 /* IDKitSignature.modulemap */,
+				2249F8D95609DEB8CB0578B4E61CD011 /* IDKitSignature.xcconfig */,
+				8F329A0AB083F1EFB9BB04273A3F2FB2 /* IDKitSignature-dummy.m */,
+				727BF74F2783C61769C2C55CC71438D1 /* IDKitSignature-prefix.pch */,
+				AC182F1CC0DBEA4D12F6C7B1A2F8628D /* IDKitSignature-umbrella.h */,
+				681A9018C8DF4B48B1D6BCEEB21D22CD /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/IDKitSignature";
+			sourceTree = "<group>";
+		};
+		467570370C435610CD68724D3F3E42EC /* IDKitSignature */ = {
+			isa = PBXGroup;
+			children = (
+				39FD11E4335CC2BA4E698F58B1B21BDA /* IDKitSignatureView.swift */,
+				A1F9097758C4452BCA6A7E619E7FAC16 /* Pod */,
+				00F0EC36014DFDF6C51008D0C337F962 /* Support Files */,
+			);
+			name = IDKitSignature;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -116,7 +127,7 @@
 		63DBFA74A6B5F5A8C2EB733094E21EB4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C9F36555AAA16CBACFA94A200467B69E /* IDKitSignature */,
+				467570370C435610CD68724D3F3E42EC /* IDKitSignature */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -141,33 +152,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A1F9097758C4452BCA6A7E619E7FAC16 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F6D7B95BF8A3183E9EF783EEECFF1FDE /* IDKitSignature.podspec */,
+				D9D38D32B681CE1A62E025342238AA0D /* LICENSE */,
+				6EEDE322B068C9E396CC9B99A3A13E76 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C9F36555AAA16CBACFA94A200467B69E /* IDKitSignature */ = {
-			isa = PBXGroup;
-			children = (
-				1644EEAC231BAFA2000234E0 /* IDKitSignatureView.swift */,
-				EF0A753B83EF6785A53FAA7549F2075B /* Pod */,
-				2083DCDD705FE27D704496A6290E1249 /* Support Files */,
-			);
-			name = IDKitSignature;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		EF0A753B83EF6785A53FAA7549F2075B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				91364A5B05CBCD62B37619139B6C75B2 /* IDKitSignature.podspec */,
-				2174EF85B355BA6004F6DCC409354600 /* LICENSE */,
-				E2C1450B044CD3CAA93E85D67AA6E615 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		FBCC70BDE236157A9D633992A6DFCAF5 /* Targets Support Files */ = {
@@ -204,7 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99403B9E8A7F4EF45AFE60313456001E /* Build configuration list for PBXNativeTarget "IDKitSignature" */;
 			buildPhases = (
-				8A3BC720F21470EFE0815B1DBA0A5126 /* Sources */,
+				0A6857C8AAFA59DB79BFFF0862382613 /* Sources */,
 				64BCECCD298359AD7CA26A462FA896AC /* Frameworks */,
 				4DA4DC6C74D457FB487DF54B7E7477D4 /* Headers */,
 			);
@@ -242,7 +242,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1030;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -251,6 +251,7 @@
 			knownRegions = (
 				English,
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 933114ADDFCDED39CE7AA2C695AA3EE7 /* Products */;
@@ -264,20 +265,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A6857C8AAFA59DB79BFFF0862382613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41EBD7EEE8B5568613F8F3FABE5171A /* IDKitSignature-dummy.m in Sources */,
+				6727246ECD49B7EA7BB8A87D321B1F52 /* IDKitSignatureView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5BBB952C850D75BFA024B39E0952A884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D8C04F28F0D567921F9CE80D1A5A4FF /* Pods-IDKitSignature_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A3BC720F21470EFE0815B1DBA0A5126 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8665F2C2E026A2D39E15BDD94C09CB5 /* IDKitSignature-dummy.m in Sources */,
-				1644EEAD231BAFA2000234E0 /* IDKitSignatureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +294,42 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2B8D632252FBD384CFAF8E5C9B8D44F7 /* Debug */ = {
+		01E2C310A39EACBA327645B9D43D789E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58AE8CCE9FB0FB0CA96AF7F6E3B2B71C /* IDKitSignature.xcconfig */;
+			baseConfigurationReference = 2249F8D95609DEB8CB0578B4E61CD011 /* IDKitSignature.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IDKitSignature/IDKitSignature-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IDKitSignature/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IDKitSignature/IDKitSignature.modulemap";
+				PRODUCT_MODULE_NAME = IDKitSignature;
+				PRODUCT_NAME = IDKitSignature;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4530ADE80308F9C0E6CD689E46B7B67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2249F8D95609DEB8CB0578B4E61CD011 /* IDKitSignature.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -318,7 +352,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -329,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -427,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -481,39 +517,6 @@
 			};
 			name = Release;
 		};
-		C6DE6F2EC3EB31DA6EC8C12C229FAADE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58AE8CCE9FB0FB0CA96AF7F6E3B2B71C /* IDKitSignature.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IDKitSignature/IDKitSignature-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IDKitSignature/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IDKitSignature/IDKitSignature.modulemap";
-				PRODUCT_MODULE_NAME = IDKitSignature;
-				PRODUCT_NAME = IDKitSignature;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F5161FE1E6EC630F7C9EAD7D6F3CB0DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8AC02E6BE30DB201AA8FC3C53E402668 /* Pods-IDKitSignature_Tests.release.xcconfig */;
@@ -564,8 +567,8 @@
 		99403B9E8A7F4EF45AFE60313456001E /* Build configuration list for PBXNativeTarget "IDKitSignature" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B8D632252FBD384CFAF8E5C9B8D44F7 /* Debug */,
-				C6DE6F2EC3EB31DA6EC8C12C229FAADE /* Release */,
+				4530ADE80308F9C0E6CD689E46B7B67C /* Debug */,
+				01E2C310A39EACBA327645B9D43D789E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
