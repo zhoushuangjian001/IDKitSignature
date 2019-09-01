@@ -1,0 +1,6 @@
+use_frameworks!
+target 'IDKitSignature_Tests' do
+  pod 'IDKitSignature', :path => '../'
+  
+  
+end
