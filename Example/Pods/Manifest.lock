@@ -1,0 +1,16 @@
+PODS:
+  - IDKitSignature (0.1.0)
+
+DEPENDENCIES:
+  - IDKitSignature (from `../`)
+
+EXTERNAL SOURCES:
+  IDKitSignature:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IDKitSignature: 4cbd3510d28238e100502e95184080c2359cefbb
+
+PODFILE CHECKSUM: f072c7539801178d515d12847ef77732318837d2
+
+COCOAPODS: 1.5.3

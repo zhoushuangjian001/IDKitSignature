@@ -1,0 +1,6 @@
+framework module IDKitSignature {
+  umbrella header "IDKitSignature-umbrella.h"
+
+  export *
+  module * { export * }
+}

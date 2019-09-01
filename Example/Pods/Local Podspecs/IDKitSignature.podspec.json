@@ -1,0 +1,22 @@
+{
+  "name": "IDKitSignature",
+  "version": "0.1.0",
+  "summary": "A short description of IDKitSignature.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhoushuangjian511@163.com/IDKitSignature",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhoushuangjian511@163.com": "zhoushuangjian@algnto.com"
+  },
+  "source": {
+    "git": "https://github.com/zhoushuangjian511@163.com/IDKitSignature.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IDKitSignature/Classes/**/*"
+}
