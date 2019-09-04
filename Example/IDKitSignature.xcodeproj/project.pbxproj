@@ -132,7 +132,7 @@
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = YY9THQMRZF;
+						DevelopmentTeam = RV5H7G8WA6;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -326,7 +326,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6AA9B31CFD5D52163CE0DF4B /* Pods-IDKitSignature_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = YY9THQMRZF;
+				DEVELOPMENT_TEAM = RV5H7G8WA6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -349,7 +349,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3727FBDD658089F408294D7 /* Pods-IDKitSignature_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = YY9THQMRZF;
+				DEVELOPMENT_TEAM = RV5H7G8WA6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

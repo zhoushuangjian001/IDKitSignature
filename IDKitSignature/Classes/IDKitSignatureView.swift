@@ -7,19 +7,30 @@
 
 import Foundation
 
-class IDKitSignatureView: UIView {
+@objc public class IDKitSignatureView: UIView {
 
+    // Custom parameters
+    /// Set line width
+    @objc var lineWidth:CGFloat = 5.0;
+    /// Set line color
+    @objc var lineColor:UIColor = .black
+    
     /// Initialize the container
     fileprivate var pointsArray:Array<Array<NSValue>> = []
     fileprivate var tempPointsArray:Array<NSValue>?
 
     /// View draw method
-    override func draw(_ rect: CGRect) {
-
+    override public func draw(_ rect: CGRect) {
+        // Get view context
+        let context = UIGraphicsGetCurrentContext()
+        // Set
+        context!.setLineWidth(lineWidth)
+        context!.setStrokeColor(lineColor.cgColor)
+        
     }
 
     /// View touch began method
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         // Initialize container
         tempPointsArray = Array.init()
         // Temporary points are added to the formal container container
@@ -27,13 +38,13 @@ class IDKitSignatureView: UIView {
     }
 
     /// View touch ended method
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         // Remove elements in the container
         tempPointsArray!.removeAll()
     }
 
     /// View touch moved method
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         // Get your fingers object
         let touch = touches.first
         // Get your fingers touch the point of view
