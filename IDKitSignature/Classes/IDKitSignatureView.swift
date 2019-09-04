@@ -19,14 +19,23 @@ import Foundation
     fileprivate var pointsArray:Array<Array<NSValue>> = []
     fileprivate var tempPointsArray:Array<NSValue>?
 
+    // Get view context
+    fileprivate let context = UIGraphicsGetCurrentContext()
+
     /// View draw method
     override public func draw(_ rect: CGRect) {
-        // Get view context
-        let context = UIGraphicsGetCurrentContext()
         // Set
         context!.setLineWidth(lineWidth)
         context!.setStrokeColor(lineColor.cgColor)
-        
+        // Set drew start point
+        pointsArray.forEach { (valuesArray) in
+            let startPoint = valuesArray.first!.cgPointValue
+            context!.move(to: startPoint)
+            valuesArray.forEach({ (value) in
+                context!.addLine(to: value.cgPointValue)
+            })
+        }
+        context!.strokePath()
     }
 
     /// View touch began method
