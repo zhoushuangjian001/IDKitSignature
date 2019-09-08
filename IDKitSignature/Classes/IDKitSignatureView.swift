@@ -30,6 +30,7 @@ import Foundation
     /// Initialize the container
     var pointsArray:NSMutableArray = NSMutableArray.init()
     var tempPointsArray:NSMutableArray?
+    var removePointsArray:NSMutableArray?
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -70,10 +71,6 @@ import Foundation
         pointsArray.add(tempPointsArray!)
     }
 
-    /// View touch ended method
-    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-    }
-
     /// View touch moved method
     override public func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         // Get your fingers object
@@ -109,12 +106,31 @@ extension IDKitSignatureView {
     }
 
     /// Undo the last operation
-    @objc public func undoLastOperation() {
+    @objc public func removeAll() {
         guard pointsArray.count <= 0 else {
             return
         }
         pointsArray.removeLastObject()
         self.setNeedsDisplay()
+    }
+
+    /// Restore operation
+    @objc public func restoreOperation() {
+        if let array = removePointsArray {
+            if array.count != 0 {
+                pointsArray.add(array)
+                self.setNeedsDisplay()
+            }
+        }
+    }
+
+    /// Cancel the operation
+    @objc public func undoOperation() {
+        if pointsArray.count >= 1 {
+            removePointsArray = NSMutableArray.init(array: pointsArray.lastObject as! NSMutableArray)
+            pointsArray.removeLastObject()
+            self.setNeedsDisplay()
+        }
     }
 
     /// Save image
